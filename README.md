@@ -1,2 +1,2 @@
 # feast
-feast for developers
+A feast for developers

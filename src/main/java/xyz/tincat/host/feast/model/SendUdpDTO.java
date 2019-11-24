@@ -10,5 +10,10 @@ import lombok.ToString;
 public class SendUdpDTO {
     private String serverHost;
     private Integer serverPort;
+    private Integer clientPort;
     private String content;
+    private String method;
 }
+
+
+

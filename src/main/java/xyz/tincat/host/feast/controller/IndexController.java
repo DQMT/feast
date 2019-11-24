@@ -1,6 +1,7 @@
 package xyz.tincat.host.feast.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -14,5 +15,15 @@ public class IndexController {
     @RequestMapping({"","index"})
     public String index() {
         return "index";
+    }
+
+    @GetMapping("udpClient")
+    public String udpClient() {
+        return "udp-client";
+    }
+
+    @GetMapping("buttons")
+    public String buttons() {
+        return "buttons";
     }
 }

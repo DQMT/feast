@@ -1,4 +1,4 @@
-package xyz.tincat.host.feast.controller;
+package xyz.tincat.host.feast.mvc.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

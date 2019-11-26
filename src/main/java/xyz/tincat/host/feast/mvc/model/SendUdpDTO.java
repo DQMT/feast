@@ -1,4 +1,4 @@
-package xyz.tincat.host.feast.model;
+package xyz.tincat.host.feast.mvc.model;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

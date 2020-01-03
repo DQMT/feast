@@ -16,6 +16,9 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<guava.version>21.0</guava.version>
+		<netty.version>4.1.43.Final</netty.version>
+        <delight-nashorn-sandbox.version>0.1.14</delight-nashorn-sandbox.version>
 	</properties>
 
 	<dependencies>
@@ -47,9 +50,18 @@
 		<dependency>
 			<groupId>io.netty</groupId>
 			<artifactId>netty-all</artifactId>
-			<version>4.1.43.Final</version>
+			<version>${netty.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>${guava.version}</version>
+		</dependency>
+        <dependency>
+            <groupId>org.javadelight</groupId>
+            <artifactId>delight-nashorn-sandbox</artifactId>
+            <version>${delight-nashorn-sandbox.version}</version>
+        </dependency>
 	</dependencies>
 
 	<build>
